@@ -1,0 +1,63 @@
+<div class="contact-form">
+  <p-header>
+    <button class="btn-close" pButton type="button" icon="pi pi-times"></button>
+    <button class="btn-arrow" pButton type="button" icon="pi pi-arrow-left"></button>
+    <div class="step">Step 1 of 1</div>
+    <div class="title">Download</div>
+  </p-header>
+
+  <div class="ui-fluid p-grid p-formgrid">
+    <div class="p-col-12 p-field">
+      <button class="btn-social google" pButton type="button" label="Connect with Google">
+        <div class="container-image">
+          <img class="img-social" src="assets/image/google Icon.png" alt="google Icon">
+        </div>
+      </button>
+    </div>
+    <div class="p-col-12 p-field">
+      <button class="btn-social facebook" pButton type="button" label="Connect with Facebook">
+        <div class="container-image">
+          <img class="img-social" src="assets/image/facebook.png" alt="google Icon">
+        </div>
+      </button>
+    </div>
+
+    <div class="p-col-12 p-field">
+      <div class="line">
+        <span class="or">OR</span>
+      </div>
+    </div>
+
+    <div class="p-col-12 p-field">
+      <label for="firstName">last name*</label>
+      <input class="form-input" id="firstName" type="text" pInputText>
+    </div>
+    <div class="p-col-12 p-field">
+      <label for="lastName">last name*</label>
+      <input class="form-input" id="lastName" type="text" pInputText>
+    </div>
+    <div class="p-col-12 p-field">
+      <label for="workEmail">work email*</label>
+      <input class="form-input" id="workEmail" type="text" pInputText>
+    </div>
+
+    <div class="p-col-12 p-field ">
+      <label for="phone">phone*</label>
+      <div class="ui-inputgroup " id="phone">
+        <p-dropdown styleClass="dropdown" [options]="countryCodes"></p-dropdown>
+        <input type="text" class="form-input" id="phone" pInputText>
+      </div>
+    </div>
+
+    <div class="p-col-12 p-field">
+      <button class="next" pButton type="button" label="Next"></button>
+    </div>
+  </div>
+
+  <p-footer>
+    We're committed to your privacy. Adcore uses the information you provide to us to
+    contact you about our relevant content, products, and services. You may
+    unsubscribe from these communications at any time. For more information,
+    check out our <u>Privacy policy.</u>
+  </p-footer>
+</div>
