@@ -1,8 +1,7 @@
   .contact-form {
-    width: 860px;
-    border: 0px;
-    margin: 20px auto;
-    box-shadow: 0px 0px 0px !important;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 75%;
     background-color: #0D6CE5 !important;
   }
 
@@ -159,6 +158,10 @@
   }
 
   @media only screen and (max-width: 375px) {
+    .contact-form {
+      width: 100%;
+    }
+
     .btn-close {
       display: none;
     }
