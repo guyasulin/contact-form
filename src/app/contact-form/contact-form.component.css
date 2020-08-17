@@ -157,7 +157,7 @@
     width: 67%;
   }
 
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 460px) {
     .contact-form {
       width: 100%;
     }
